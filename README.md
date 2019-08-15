@@ -19,10 +19,14 @@ Simple Python script for D-Link vulnerability scan and test
 
 ## Usage:
 
-$ python3 dlkploit600.py -H [target] -p [port] [OPTIONS]
+$ python3 dlkploit600.py -H [target] --range [ip-range] -p [port] [OPTIONS]
 
 Options:
 
+-H, --host
 -s, --scan
+--range (Use this format: 192.168.0.1-254)
+-r --scannerdlrange
+
 
 help, --help, -h
